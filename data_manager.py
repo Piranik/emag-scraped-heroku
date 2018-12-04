@@ -102,7 +102,7 @@ def get_table_names(cursor):
 
 
 def get_table_name(table_name):
-    base_table = '2018-11'
+    base_table = '2018-12'
     if table_name != None:
         base_table = table_name
     return base_table
